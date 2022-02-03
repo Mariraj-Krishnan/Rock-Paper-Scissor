@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="result-container">
+            <div class="user">
+                <h1 class="title">You</h1>
+                <span class="imgholder"><img src="icons/paper.png" id="userimg" style="visibility: hidden;"></span>
+                <h1 class="score">Score: <span id="userScore">0</span></h1>
+            </div>
+            <div class="system">
+                <h1 class="title">Computer</h1>
+                <span class="imgholder"><img src="icons/paper.png" id="userimg" style="visibility: hidden;"></span>
+                <h1 class="score">Score: <span id="sysScore">0</span></h1>
+            </div>
+        </div>
+        <div class="opt-and-other">
+            <div class="options">
+            <span class="imgholder" id="r"><img src="icons/rock.png"></span>
+            <span class="imgholder" id="p"><img src="icons/paper.png"></span>
+            <span class="imgholder" id="s"><img src="icons/scissor.png"></span>
+            </div>
+            <div class="turn-tie">
+                <h2 class="turns">Turns: <span id="turn">0</span></h2>
+                <h2 class="ties">Ties: <span id="tieScore">0</span></h2>
+            </div>
+        </div>
+    </div>
+    <h2 id="resScreen"></h2>
+</body>
+</html>
