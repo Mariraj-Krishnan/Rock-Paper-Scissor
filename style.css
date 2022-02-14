@@ -153,6 +153,8 @@ body {
   .result-container > div {
     width: 200px;
     height: 230px;
+    box-shadow: none;
+    background: none;
   }
   .result-container .imgholder {
     width: 100px;
