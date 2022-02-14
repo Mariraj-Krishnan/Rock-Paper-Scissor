@@ -1,6 +1,6 @@
 :root {
   --violaBlue: #656faf;
-  --darkGrey: hsl(0deg, 0%, 50%);
+  --darkGrey: hsl(0deg, 0%, 60%);
   --sandal: #e3af6d;
 }
 * {
@@ -171,6 +171,6 @@ body {
     height: 80px;
   }
   #finalResScreen {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
